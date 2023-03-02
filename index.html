@@ -52,7 +52,8 @@ padding-top: 0px;
    <p> Backyard
      Trampolines
      
-  <a href="Third.html">
+  <a href="Third.html">>
+    
     <p> Competition
       Trampolines
       
@@ -64,8 +65,25 @@ padding-top: 0px;
 
  <div id="content">
     <img id= "trampoline" src="trampoline.jpeg">
+   <br>
+   <button onclick="showpic()">
+     Show
+           </button>
+   <button onclick="hidepic()">
+    Hide
+   </button>
    
-    
+   <script>
+     function hidepic() {
+       var pic = document.getElementByID("trampoline");
+       pic.style.display = "none";
+     }
+  function showpic() {
+    var pic = document.getElementByID("trampoline");
+    pic.style.display = "block";
+    {
+   </script>
+       
 
     
   
